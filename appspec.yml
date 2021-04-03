@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /helloworld/
     destination: /home/ec2-user/python-flask-service/
 hooks:
   AfterInstall:
