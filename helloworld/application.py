@@ -1,7 +1,3 @@
-#!flask/bin/python
-import json
-from flask import Flask, Response
-from helloworld.flaskrun import flaskrun
 from Post import app
 
 if __name__ == '__main__':
