@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /home/ec2-user/environment/bloggingwebsite/helloworld/application.py
-  - destination: /home/ec2-user/environment/bloggingwebsite/helloworld/application.py
+  - source: /
+  - destination: /home/ec2-user/python-flask-service/
 hooks:
   AfterInstall:
    - location: scripts/install_dependencies
